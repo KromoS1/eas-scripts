@@ -39,5 +39,13 @@ https://api.telegram.org/bot<BOT_TOKET>/getUpdates
 ...```
 ````
 
+### After all the settings you should have a .env file like this
+
+```
+BOT_TOKEN=607030541:AAF2bJ4zM0kSdp2Wjm-yYw51qoLVE
+CHAT_ID=8207758582231
+APP_NAME_EXPO=application
+```
+
 The customization of the scripts is now complete. Now when you start the build via eas build in the Telegram bot you will receive a notification about the start of the build, as well as the successful or unsuccessful completion of the build.
 In case of successful completion, for convenience you will also receive a link to the build.
