@@ -14,9 +14,9 @@ These scripts are used to track the build process of pre-built packages of your 
 - In the Scripts field in the `package.json file`, add commands to run scripts
 
 ```
-	"eas-build-pre-install": "bash ./scripts/eas-build-pre-install.bash",
-    "eas-build-on-cancel": "bash ./scripts/eas-build-on-cancel.bash",
-    "eas-build-on-complete": "bash ./scripts/eas-build-on-complete.bash"
+"eas-build-pre-install": "bash ./scripts/eas-build-pre-install.bash",
+"eas-build-on-cancel": "bash ./scripts/eas-build-on-cancel.bash",
+"eas-build-on-complete": "bash ./scripts/eas-build-on-complete.bash"
 ```
 
 - In Telegram, you need to create a bot via BotFather and copy your bot's token, then add the token to the `.env file`
